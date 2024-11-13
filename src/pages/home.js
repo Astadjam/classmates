@@ -32,7 +32,7 @@ export class Home extends React.Component {
                             if(index == map.length - 1)
                                 this.setState({datas: personsDatas})
                         })
-                        .catch(err => console.log(err))
+                        .catch(err => console.log(err)) 
                 });
             })
             .catch(err => console.log(err))
